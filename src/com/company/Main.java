@@ -24,6 +24,7 @@ public class Main {
                  BufferedWriter ad = new BufferedWriter(fww)){
                 ad.write(kb.toString());
             } catch (IOException ex){
+                System.out.println("Error");
             }
         } catch (IOException ex) {
             ex.printStackTrace();
